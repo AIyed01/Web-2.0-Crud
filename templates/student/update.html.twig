@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Update Student</title>
+</head>
+<body>
+    <h1>Update Student</h1>
+    {{ form_start(form) }}
+    {{ form_row(form.name) }}
+    {{ form_row(form.email) }}
+    {{ form_row(form.age) }}
+    {{ form_row(form.class) }}
+    <button type="submit">Update</button>
+    {{ form_end(form) }}
+</body>
+</html>
